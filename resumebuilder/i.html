@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Builder</h1>
+        <h3>create a resume</h3>
+        <marquee>This will help you to generate automated ai re'sume'</marquee>
+    </header>
+    <main>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="enter your name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="enter your mail"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="enter your number"><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="enter your adress"><br><br>
+            </form>
+        </section>
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <button id="add-experience">Add Experience</button>
+            <ul id="experience-list">
+                <!-- dynamically generated list items will go here -->
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <button id="add-education">Add Education</button>
+            <ul id="education-list">
+                <!-- dynamically generated list items will go here -->
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <button id="add-skill">Add Skill</button>
+            <ul id="skill-list">
+                <!-- dynamically generated list items will go here -->
+            </ul>
+        </section>
+        <button id="generate-resume">Generate Resume</button>
+        <div id="resume-preview">
+            <!-- resume preview will go here -->
+             <a>It optimizes your resume for any job, provides suggestions for improvements, and ensures it’s effective.
+                The tool checks for completeness, word choice, typos, formatting, and more</a>
+             <br>
+             <a>Improve your existing resume or build a new one from scratch.
+                Import your resume to their resume builder, choose a template, and freshen it up in minutes</a>   
+        </div>
+       <div id="container" > 
+        <div id="rep"></div>
+        <div id="rep1"></div>
+       </div>
+       <br>
+       <div id="rep2"></div>
+    </main>
+    <script src="java.js"></script>
+    <div id="in">
+        <p>Our website generate the ai resume builder with the information of user.it is easy to asssesable and effective .</p>
+    </div>
+    <footer>
+        <a>For contact:use the given e-mail if you have any queres</a>
+        <br>
+        <p>e-mail=resumerbulder@gmail.com</p>
+        
+    </footer>
+    
+</body>
+</html>
