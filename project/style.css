@@ -1,0 +1,125 @@
+ footer{
+    text-align: center;
+    font-size: large;
+    background-color: #0e0c0c;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ h1 {
+    text-align: center;
+    text-decoration: solid;
+ }
+ h3 {
+    text-align: center;
+    background-color:rgb(221, 209, 209) ;
+    border-radius:10px ;
+    border: 2px solid black;
+ }
+ body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMd-HVXPA6-VkrPLJ_LGuggD0ognJyUKIYzccyC4Q3oGuKeyiJeqrEkCIzJXaQs2g21bs&usqp=CAU");
+    background-size:cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section {
+    background-color: #3b8ed1;
+    padding: 20px;
+    margin-bottom: 50px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    border-radius: 10;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #0c0c0c;
+    border-radius:2%;
+}
+
+button {
+    background-color: #1f218d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4459cf;
+    border-radius: 10px;
+}
+
+#resume-preview {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    border-radius: 10;
+}
+
+#rep2 {
+    width :400px;
+    height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLS70tnpW8juxvbUsOshi4_Qo1u0Mn9BhnqFBasJPSwOemuDRL9A4kf8LoNyZgL19l0Y&usqp=CAU");
+    background-size: cover;
+    padding:10px 20px ;
+    border: 2px solid #0e0c0c;
+    border-radius:10px ;
+}
+#container {
+    width:900px;
+    border-color: #0e0c0c;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+#rep {
+    width :400px;
+    height: 400px;
+    background-image: url("https://www.resume-now.com/sapp/uploads/2022/10/resume-free-template-trendy-loyal-blue.svg");
+    background-size: cover;
+    padding:10px 20px ;
+    border: 2px solid #0e0c0c;
+    border-radius:10px ;
+    background-size: cover/contain/auto;
+    
+}
+#rep1 {
+    width :400px;
+    height: 400px;
+    background-image: url("https://www.my-resume-templates.com/wp-content/uploads/2023/12/blank-resume-template-274.jpg");
+    background-size: cover;
+    padding:10px 20px ;
+    border: 2px solid #0e0c0c;
+    border-radius:10px ;
+    background-size: cover;
+
+}
